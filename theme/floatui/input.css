@@ -1,0 +1,17 @@
+#moveinputDisplay {
+    left: 8px;
+    bottom: 8px;
+}
+
+#moveinputDisplay #moveinputBubble {
+    border-radius: 8px;
+}
+
+#moveinputDisplay .faceButton {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#moveinputDisplay .moveinputSendBtn {
+    margin-right: 8px;
+}
