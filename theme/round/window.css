@@ -1,0 +1,27 @@
+
+
+/* 弹出选择菜单 */
+#selectHolder #selectHolderBox {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 弹出输入框 */
+#syncHolder .panelHolderItem {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 浮动面板 */
+#movePanelHolder .panelHolderItem {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#movePanelHolder .panelHolderItem .contentItemBgicon {
+  transition: all 0.2s ease-in-out;
+}
+
+#movePanelHolder .panelHolderItem .contentItemBgicon:active {
+  opacity: .6 !important;
+}

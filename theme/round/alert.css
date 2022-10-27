@@ -1,0 +1,7 @@
+
+
+/* 底部提示框 */
+#alertHolder div {
+  border-radius: 8px;
+  overflow: hidden;
+}

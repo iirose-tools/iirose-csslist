@@ -1,0 +1,23 @@
+
+/* 消息中的图片 */
+.chatContentHolder img {
+  border-radius: 4px;
+}
+
+/* 群聊提示框圆角 */
+.pubMsgTimeBody {
+  border-radius: 8px;
+}
+
+/* 聊天气泡 */
+.roomChatContentBox[style="float:right;margin-left:12px;"] .room_chat_content {
+  border-radius: 24px 24px 24px 0;
+  box-shadow: 0 0 2px #00000066;
+  overflow: hidden;
+}
+
+.roomChatContentBox[style="float:left;margin-right:12px;"] .room_chat_content {
+  border-radius: 24px 24px 0 24px;
+  box-shadow: 0 0 2px #00000066;
+  overflow: hidden;
+}

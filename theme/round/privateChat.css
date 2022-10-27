@@ -1,0 +1,85 @@
+/* 提示框圆角 */
+.privatemsgMessagesTimeBody {
+  border-radius: 8px;
+}
+
+/* 私聊窗口header */
+.privatemsgHeader .privatemsgIcon .bgImg {
+  border-radius: 100%;
+}
+
+.privatemsgHeader .privatemsgIcon {
+  clip-path: none;
+  height: 34px;
+  width: 34px;
+  top: 8px;
+  left: 13px;
+}
+
+.privatemsgHeader .privatemsgIconBg {
+  height: 36px;
+  width: 36px;
+  top: 7px;
+  left: 12px;
+  border-radius: 100%;
+  box-shadow: 0 0 2px #000;
+}
+
+.privatemsgHeader .privatemsgIconBg .privatemsgIconBgBody {
+  border-radius: 100%;
+}
+
+.privatemsgHeader .privatemsgIconBg .privatemsgIconBgShadow {
+  display: none;
+}
+
+.privatemsgHeader .privatemsgSexShadow {
+  display: none;
+}
+
+.privatemsgHeader .privatemsgSex {
+  width: 0px !important;
+  height: 0px !important;
+  display: none;
+}
+
+.privatemsgHeader .privatemsgNameContent {
+  width: 150px;
+}
+
+.privatemsgHeader .privatemsgCloseWraper {
+  width: 50px;
+}
+
+.privatemsgHeader .movehandle {
+  width: 250px;
+}
+
+.privatemsgHeader .privatemsgInfo {
+  width: 250px;
+}
+
+/* 私聊窗口全局圆角 */
+.privatemsg {
+  border-radius: 8px;
+}
+
+/* 自己发的私聊消息 */
+.privatemsgMessagesBodyItemBodyBox[style="float:right;margin-right:11px;"] .privatemsgMessagesBodyItemBody {
+  border-radius: 24px 24px 0 24px;
+  box-shadow: 0 0 2px #00000066;
+  overflow: hidden;
+}
+
+/* 对方发的私聊消息 */
+.privatemsgMessagesBodyItemBodyBox[style="float:left;margin-left:11px;"] .privatemsgMessagesBodyItemBody {
+  border-radius: 24px 24px 24px 0;
+  box-shadow: 0 0 2px #00000066;
+  overflow: hidden;
+}
+
+/* 头像圆角 */
+.privatemsgMessagesBodyItem .privatemsgMessagesBodyItemIcon {
+  overflow: hidden;
+  border-radius: 100%;
+}

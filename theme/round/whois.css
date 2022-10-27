@@ -1,0 +1,26 @@
+/* CP头像圆角 */
+.whoisCpHolder>div:first-child {
+  border-radius: 100%;
+}
+
+.whoisCpHolder .whoisAvatar {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* 资料卡图片 */
+.whoisAvatarBox {
+  border-radius: 100%;
+}
+
+.whoisAvatarBox> :first-child {
+  display: none;
+}
+
+.whoisAvatarBox .bgImg {
+  border-radius: 100%;
+}
+
+.whoisAvatarBox .ExtIconSettings {
+  border-radius: 100%;
+}

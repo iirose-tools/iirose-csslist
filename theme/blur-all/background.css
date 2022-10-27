@@ -1,0 +1,4 @@
+/* 背景模糊 */
+#mainContainer {
+  backdrop-filter: blur(16px);
+}

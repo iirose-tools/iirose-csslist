@@ -1,0 +1,21 @@
+/* 卡片圆角 */
+.shopItem,
+.commonBox {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 部分需要特殊处理的内容 */
+.roomSplashBox .shopItem .bgImg {
+  border-radius: 8px 8px 0 0;
+}
+
+.mapHolderBrowserPage .shopItem .bgImg {
+  border-radius: 8px 8px 0 0;
+}
+
+/* 消息卡片圆角，用于信箱、论坛等场景 */
+.cardTag {
+  border-radius: 8px;
+  overflow: hidden;
+}

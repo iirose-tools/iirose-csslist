@@ -1,0 +1,4 @@
+/* 背景模糊 */
+.panelHolderItem {
+  backdrop-filter: blur(16px);
+}

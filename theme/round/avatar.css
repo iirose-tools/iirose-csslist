@@ -1,0 +1,10 @@
+/* 头像圆角 */
+.msgavatar .bgImgBox .bgImg {
+  border-radius: 100%;
+  box-shadow: 0 0 4px #00000066;
+}
+
+/* 圆角边框 */
+.msgavatar {
+  box-shadow: none;
+}
