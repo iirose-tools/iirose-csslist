@@ -1,0 +1,33 @@
+.functionButtonGroup {
+    background: #fff;
+    border-radius: 8px;
+    margin: 8px;
+    width: calc(100% - 16px);
+}
+
+.functionItemBox {
+    margin: 8px;
+    width: calc(100% - 16px);
+    border-radius: 8px;
+    background: #f0f0f0;
+    padding: 4px 0;
+}
+
+.functionItemBox .functionButton {
+    margin: 8px;
+    overflow: hidden;
+    width: calc(100% - 16px);
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+.functionItemBox .functionButton:hover {
+    background: #e0e0e0;
+}
+
+#functionHolder>div:nth-child(1)>div:nth-child(1) {
+    border-radius: 8px !important;
+    margin: 8px !important;
+    width: calc(100% - 16px) !important;
+    overflow: hidden;
+}
