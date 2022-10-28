@@ -1,0 +1,18 @@
+/* 媒体播放控件 */
+
+#shareMediaBox .ExtContent>div:nth-child(1) {
+  width: 100px !important;
+}
+
+#shareMediaBox .ExtContent>div:nth-child(3) {
+  right: 40px !important;
+}
+
+
+#shareMediaBox .ExtContent>div:nth-child(4) {
+  right: 40px !important;
+}
+
+#shareMediaBox .ExtContent>progress {
+  width: 195px !important;
+}
