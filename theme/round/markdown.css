@@ -9,7 +9,7 @@
 }
 
 /* 标题图片大小优化 */
-.markDownBox h1,h2,h3,h4,h5,h6 img {
+.markDownBox h1>img, h2>img, h3>img, h4>img, h5>img, h6>img {
   vertical-align: middle !important;
   height: 0.9em !important;
 }
