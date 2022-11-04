@@ -1,11 +1,7 @@
-/* markdown代码段美化以及长文本修复 */
+/* markdown代码段美化 */
 .markDownBox pre {
   border-radius: 4px;
   overflow: auto;
-}
-
-.markDownBox pre * {
-  white-space: nowrap;
 }
 
 /* 标题图片大小优化 */
