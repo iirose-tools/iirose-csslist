@@ -1,0 +1,15 @@
+/* markdown代码段美化以及长文本修复 */
+.markDownBox pre {
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.markDownBox pre * {
+  white-space: nowrap;
+}
+
+/* 标题图片大小优化 */
+.markDownBox>h1,h2,h3,h4,h5,h6 {
+  vertical-align: middle !important;
+  height: 0.9em !important;
+}
