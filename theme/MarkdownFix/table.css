@@ -1,0 +1,26 @@
+/* 稍微让表格阅读起来更加的轻松 */
+
+.markDownBox table thead th {
+    padding: 0 8px;
+}
+
+.markDownBox table thead th:first-child {
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+.markDownBox table thead th:last-child {
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+.markDownBox table {
+    border-collapse:collapse;
+}
+
+
+.markDownBox table,th,td{
+    border: 1px solid black;
+    height: 1.4em;
+    line-height: 1.4em;
+}
