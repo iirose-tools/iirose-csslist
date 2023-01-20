@@ -1,15 +1,15 @@
-#userInfoHolder .contentItemContent>div>div[style]:nth-child(2){
+#panelHolder .contentItemContent>div>div[style]:nth-child(2){
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#userInfoHolder .contentItemContent>div>div>div:nth-child(1){
+#panelHolder .contentItemContent>div>div>div:nth-child(1){
     order:-2;
 }
-#userInfoHolder .contentItemContent>div>div>div:nth-child(2){
+#panelHolder .contentItemContent>div>div>div:nth-child(2){
     order:-2;
 }
-#userInfoHolder .contentItemContent>div>div>div:nth-child(47){
+#panelHolder .contentItemContent>div>div>div:nth-child(47){
     order: -1;
 }
